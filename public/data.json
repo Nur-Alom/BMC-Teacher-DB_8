@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "MD.REZAUL KARIM",
+    "department": "Accounting",
+    "email": "md.rezaulkarim1975@gmail.com",
+    "phone": "04312176026",
+    "dateofbarth": "30-Jun-1975",
+    "age": "46",
+    "img": "http://bmcollege.gov.bd/img/MD.REZAUL-KARIM.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Manoj Haldar",
+    "department": "History",
+    "email": "manojh77@gmail.com",
+    "phone": "01712154...",
+    "dateofbarth": "25-Oct-1977",
+    "age": "44",
+    "img": "http://bmcollege.gov.bd/img/Manoj.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Mohammad Siddikur Rahman",
+    "department": "Accounting",
+    "email": "siddikurrahman725@gmail.com",
+    "phone": "01714823...",
+    "dateofbarth": "01-Jan-1975",
+    "age": "46",
+    "img": "http://bmcollege.gov.bd/img/Siddikur%20Rahman.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Debashish Halder",
+    "department": "Bangla",
+    "email": "halderdebashish123@gmail.com",
+    "phone": "01716050...",
+    "dateofbarth": "22-Oct-1970",
+    "age": "51",
+    "img": "http://bmcollege.gov.bd/img/IMG_20150405_0002.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Shumana Sharmin",
+    "department": "Accounting",
+    "email": "bona.desh87@gmail.com",
+    "phone": "01711970...",
+    "dateofbarth": "13-Aug-1987",
+    "age": "34",
+    "img": "http://bmcollege.gov.bd/img/20161002_122712.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Abdur Rahman Sarder",
+    "department": "Bangla",
+    "email": "abdurrahmansarder1987@gmail.com",
+    "phone": "01721538...",
+    "dateofbarth": "31-Oct-1972",
+    "age": "49",
+    "img": "http://bmcollege.gov.bd/img/Photo0039.jpg"
+  },
+  {
+    "id": "8",
+    "name": "SUSMITA YESMIN",
+    "department": "Botany",
+    "email": "susmitabcs@yahoo.com",
+    "phone": "01710781...",
+    "dateofbarth": "01-Jan-1979",
+    "age": "42",
+    "img": "http://bmcollege.gov.bd/img/SY.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Md.Nazrul Islam",
+    "department": "Bangla",
+    "email": "nazrulbiplob24@yahoo.com",
+    "phone": "04312176037",
+    "dateofbarth": "\t02-Jan-1979",
+    "age": "42",
+    "img": "http://bmcollege.gov.bd/img/DSC01580%20-%20Copy.JPG"
+  },
+  {
+    "id": "9",
+    "name": "Shawon Shahrier Mehdi",
+    "department": "Chemistry",
+    "email": "shawon.che@gmail.com",
+    "phone": "01717583...",
+    "dateofbarth": "30-May-1988",
+    "age": "33",
+    "img": "http://bmcollege.gov.bd/img/IMG_2160.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Abhijit Sikder",
+    "department": "Chemistry",
+    "email": "abhijit.sikder@gmail.com",
+    "phone": "01717952...",
+    "dateofbarth": "24-Sep-1987",
+    "age": "34",
+    "img": "http://bmcollege.gov.bd/img/CDIBFY_002.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Md.Golam Rabby",
+    "department": "Economics",
+    "email": "golamrabby1973@gmail.com",
+    "phone": "01716589...",
+    "dateofbarth": "15-Feb-1973",
+    "age": "48",
+    "img": "http://bmcollege.gov.bd/img/gr.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Alaka Rani Sarkar",
+    "department": "English",
+    "email": "alaka.eng@gmail.com",
+    "phone": "01712042...",
+    "dateofbarth": "27-Mar-1965",
+    "age": "56",
+    "img": "http://bmcollege.gov.bd/img/2.jpg"
+  }
+]
