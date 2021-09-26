@@ -28,7 +28,7 @@ const Header = () => {
                 </div>
             </nav>
             <div className="header-detail">
-                <h1 className="text-white">Government BM Collage, Barisal.</h1>
+                <h1 className="text-white">BMC Teachers Database</h1>
                 <hr />
                 <h4 className="text-warning">List of Some Teachers and Their <br />Salaries. You can Also Calculate There's Salaries.</h4>
                 <h5 className="d-flex justify-content-around mt-3">

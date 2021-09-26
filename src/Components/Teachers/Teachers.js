@@ -2,7 +2,6 @@
 import './Teachers.css'
 
 const Teachers = (props) => {
-    // console.log(props)
     const { name, img, phone, email, department, salary } = props.teacher
 
     return (

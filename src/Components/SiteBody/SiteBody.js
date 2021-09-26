@@ -15,7 +15,6 @@ const SiteBody = () => {
     }, [])
 
     const handleCart = (teacher) => {
-        console.log(teacher)
         const newAdd = [...teacherCount, teacher];
         setTeacherCount(newAdd);
     }
