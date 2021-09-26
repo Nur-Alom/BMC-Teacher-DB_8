@@ -5,7 +5,7 @@ import logo from './images/logo.jpg'
 const Header = () => {
     return (
         <div className="header-main">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <img className="logo" src={logo} alt="" />
                     <div className="collapse navbar-collapse btn">
@@ -30,7 +30,7 @@ const Header = () => {
             <div className="header-detail">
                 <h1 className="text-white">Government BM Collage, Barisal.</h1>
                 <hr />
-                <h4 className="text-warning">List of Teachers and Their Salaries. <br /> You can Also Calculate There's Salaries.</h4>
+                <h4 className="text-warning">List of Some Teachers and Their <br />Salaries. You can Also Calculate There's Salaries.</h4>
                 <h5 className="d-flex justify-content-around mt-3">
                     <article className="text-white">Total Teachers: 12</article>
                     <article className="text-white">Total Budget: 5 Lakhs</article>
