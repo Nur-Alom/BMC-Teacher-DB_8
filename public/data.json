@@ -3,11 +3,12 @@
     "id": "1",
     "name": "MD.REZAUL KARIM",
     "department": "Accounting",
-    "email": "md.rezaulkarim1975@gmail.com",
+    "email": "rezaulkarim1@gmail.com",
     "phone": "04312176026",
     "dateofbarth": "30-Jun-1975",
+    "salary": "29000",
     "age": "46",
-    "img": "http://bmcollege.gov.bd/img/MD.REZAUL-KARIM.jpg"
+    "img": "https://i.ibb.co/s5C2Dkp/id1.jpg"
   },
   {
     "id": "2",
@@ -16,68 +17,75 @@
     "email": "manojh77@gmail.com",
     "phone": "01712154...",
     "dateofbarth": "25-Oct-1977",
+    "salary": "34000",
     "age": "44",
-    "img": "http://bmcollege.gov.bd/img/Manoj.jpg"
+    "img": "https://i.ibb.co/Xs6zK2F/id8.jpg"
   },
   {
     "id": "3",
-    "name": "Mohammad Siddikur Rahman",
+    "name": "Siddikur Rahman",
     "department": "Accounting",
-    "email": "siddikurrahman725@gmail.com",
+    "email": "siddikur7@gmail.com",
     "phone": "01714823...",
     "dateofbarth": "01-Jan-1975",
+    "salary": "37000",
     "age": "46",
-    "img": "http://bmcollege.gov.bd/img/Siddikur%20Rahman.jpg"
-  },
-  {
-    "id": "5",
-    "name": "Debashish Halder",
-    "department": "Bangla",
-    "email": "halderdebashish123@gmail.com",
-    "phone": "01716050...",
-    "dateofbarth": "22-Oct-1970",
-    "age": "51",
-    "img": "http://bmcollege.gov.bd/img/IMG_20150405_0002.jpg"
+    "img": "https://i.ibb.co/pPZYtWZ/id3.jpg"
   },
   {
     "id": "4",
+    "name": "Debashish Halder",
+    "department": "Bangla",
+    "email": "halderde12@gmail.com",
+    "phone": "01716050...",
+    "dateofbarth": "22-Oct-1970",
+    "salary": "30000",
+    "age": "51",
+    "img": "https://i.ibb.co/930rwM0/id4.jpg"
+  },
+  {
+    "id": "5",
     "name": "Shumana Sharmin",
     "department": "Accounting",
     "email": "bona.desh87@gmail.com",
     "phone": "01711970...",
     "dateofbarth": "13-Aug-1987",
+    "salary": "22000",
     "age": "34",
-    "img": "http://bmcollege.gov.bd/img/20161002_122712.jpg"
+    "img": "https://i.ibb.co/f4tqGNc/id5.jpg"
   },
   {
     "id": "6",
     "name": "Abdur Rahman Sarder",
     "department": "Bangla",
-    "email": "abdurrahmansarder1987@gmail.com",
+    "email": "rahmansarder1@gmail.com",
     "phone": "01721538...",
     "dateofbarth": "31-Oct-1972",
+    "salary": "26500",
     "age": "49",
-    "img": "http://bmcollege.gov.bd/img/Photo0039.jpg"
+    "img": "https://i.ibb.co/gmwgsJQ/id6.jpg"
   },
   {
-    "id": "8",
+    "id": "7",
     "name": "SUSMITA YESMIN",
     "department": "Botany",
     "email": "susmitabcs@yahoo.com",
     "phone": "01710781...",
     "dateofbarth": "01-Jan-1979",
+    "salary": "24000",
     "age": "42",
-    "img": "http://bmcollege.gov.bd/img/SY.jpg"
+    "img": "https://i.ibb.co/Mnf70qb/id7.jpg"
   },
   {
-    "id": "7",
+    "id": "8",
     "name": "Md.Nazrul Islam",
     "department": "Bangla",
     "email": "nazrulbiplob24@yahoo.com",
     "phone": "04312176037",
     "dateofbarth": "\t02-Jan-1979",
+    "salary": "27000",
     "age": "42",
-    "img": "http://bmcollege.gov.bd/img/DSC01580%20-%20Copy.JPG"
+    "img": "https://i.ibb.co/1s6sWTr/id2.jpg"
   },
   {
     "id": "9",
@@ -86,8 +94,9 @@
     "email": "shawon.che@gmail.com",
     "phone": "01717583...",
     "dateofbarth": "30-May-1988",
+    "salary": "34000",
     "age": "33",
-    "img": "http://bmcollege.gov.bd/img/IMG_2160.jpg"
+    "img": "https://i.ibb.co/7NDm6YX/id9.jpg"
   },
   {
     "id": "10",
@@ -96,18 +105,20 @@
     "email": "abhijit.sikder@gmail.com",
     "phone": "01717952...",
     "dateofbarth": "24-Sep-1987",
+    "salary": "33500",
     "age": "34",
-    "img": "http://bmcollege.gov.bd/img/CDIBFY_002.jpg"
+    "img": "https://i.ibb.co/3mkzXx8/id10.jpg"
   },
   {
     "id": "11",
     "name": "Md.Golam Rabby",
     "department": "Economics",
-    "email": "golamrabby1973@gmail.com",
+    "email": "golamrabby@gmail.com",
     "phone": "01716589...",
     "dateofbarth": "15-Feb-1973",
+    "salary": "32000",
     "age": "48",
-    "img": "http://bmcollege.gov.bd/img/gr.jpg"
+    "img": "https://i.ibb.co/M9qC7Rn/id11.jpg"
   },
   {
     "id": "12",
@@ -116,7 +127,8 @@
     "email": "alaka.eng@gmail.com",
     "phone": "01712042...",
     "dateofbarth": "27-Mar-1965",
+    "salary": "35000",
     "age": "56",
-    "img": "http://bmcollege.gov.bd/img/2.jpg"
+    "img": "https://i.ibb.co/CvDyvHH/id12.jpg"
   }
 ]

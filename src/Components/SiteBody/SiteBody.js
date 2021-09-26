@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import './SiteBody.css';
-import Calculation from '../Calculation/Calculation';
 import Teachers from '../Teachers/Teachers';
+import Calculation from '../Calculation/Calculation'
 
 const SiteBody = () => {
     const [teachers, setTeachers] = useState([]);
+    const [teacherCount, setTeacherCount] = useState([]);
 
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
-            .then(data => setTeachers(data));
+            .then(data => setTeachers(data)
+            );
     }, [])
-    console.log(teachers);
+
+    const handleCart = (teacher) => {
+        // console.log(teacher)
+        const newAdd = [...teacherCount, teacher];
+        setTeacherCount(newAdd);
+    }
 
     return (
         <div className="body-main">
@@ -20,11 +27,12 @@ const SiteBody = () => {
                     teachers.map(teacher => <Teachers
                         key={teacher.id}
                         teacher={teacher}
+                        handleCart={handleCart}
                     />)
                 }
             </div>
             <div className="calculation-body">
-                <Calculation />
+                <Calculation teachers={teacherCount} />
             </div>
         </div>
     );

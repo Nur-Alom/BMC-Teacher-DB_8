@@ -1,0 +1,10 @@
+
+.count{
+    position: fixed;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 25px;
+    width: 20%;
+    border-radius: 15px;
+}

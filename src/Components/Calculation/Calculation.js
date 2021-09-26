@@ -1,9 +1,21 @@
 import React from 'react';
+import './Calculation.css'
 
-const Calculation = () => {
+const Calculation = (props) => {
+    console.log(props.teachers)
+    const { teachers } = props;
+    const name = props.teachers.name
+    let total = 0;
+    for (const teacher of teachers) {
+        const salary = parseFloat(teacher.salary)
+        total = total + salary;
+    }
+
     return (
-        <div>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, molestiae maiores. Quo sint praesentium amet nihil, quod, natus dolorem quos quis esse alias sit asperiores rem ipsa. Facilis, voluptatem sint?</h1>
+        <div className="count">
+            <h3>Total Selected: {props.teachers.length}</h3>
+            <p><i className="fas fa-user-tie"></i> Name: {name}</p>
+            <p>Total Cost: {total}</p>
         </div>
     );
 };

@@ -1,37 +1,29 @@
-import React from 'react';
+
 import './Teachers.css'
 
 const Teachers = (props) => {
-    const { name, id, img, phone, email, department } = props.teacher
-
+    // console.log(props)
+    const { name, img, phone, email, department, salary } = props.teacher
 
     return (
-
         <div className="teachers">
-            <div>
+            <div className="teacher">
                 <img src={img} alt="" />
-            </div>
-            <div>
-                <p><strong>Name: {name}</strong></p>
-                <p><strong>Department: {department}</strong></p>
-                <p><strong>E-mail: {email}</strong></p>
-                <p><strong>Age: </strong></p>
-                <p><strong>Phone: {phone}</strong></p>
-                <p>{id}</p>
+                <div className="detail">
+                    <p>Name: <strong>{name}</strong></p>
+                    <p>Department: <strong>{department}</strong></p>
+                    <p>E-mail: <strong>{email}</strong></p>
+                    <p>Salary: <strong>{salary}</strong></p>
+                    <p>Phone: <strong>{phone}</strong></p>
+                    <div className="select-btn">
+                        <button
+                            onClick={() => props.handleCart(props.teacher)}>
+                            <i className="fas fa-user-plus"></i> Select teacher </button>
+                    </div>
+                </div>
             </div>
         </div>
-        // <div className="col-md-4">
-        //     <div class="card p-0">
-        //         <img src={img} class="card-img-top" alt="..." />
-        //         <div class="card-body">
-        //             <p class="card-title">Name: {name}</p>
-        //             <p class="card-text">Phone: {phone}</p>
-        //             <p class="card-text">E-mail: {email}</p>
-        //             <a href="#/" class="btn btn-primary px-5">Add</a>
-        //         </div>
-        //     </div>
-        // </div>
-    );
+    )
 };
 
 export default Teachers;

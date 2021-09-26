@@ -5,7 +5,7 @@ import logo from './images/logo.jpg'
 const Header = () => {
     return (
         <div className="header-main">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div className="container-fluid">
                     <img className="logo" src={logo} alt="" />
                     <div className="collapse navbar-collapse btn">
@@ -24,14 +24,16 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
+                    <button className="login-btn"><i className="fas fa-sign-in-alt"></i> Login</button>
                 </div>
             </nav>
             <div className="header-detail">
-                <h1>Government BM Collage, Barisal.</h1>
-                <h4>About of a List of Teachers and Their Salaries</h4>
-                <h5 className="">
-                    <span>Total Teachers: 12</span>
-                    <span>Total Amount: 0</span>
+                <h1 className="text-white">Government BM Collage, Barisal.</h1>
+                <hr />
+                <h4 className="text-warning">About of a List of Teachers and Their Salaries</h4>
+                <h5 className="d-flex justify-content-around">
+                    <article className="text-white">Total Teachers: 12</article>
+                    <article className="text-white">Total Budget: 5 Lakhs</article>
                 </h5>
             </div>
         </div>
