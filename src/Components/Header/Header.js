@@ -30,8 +30,8 @@ const Header = () => {
             <div className="header-detail">
                 <h1 className="text-white">Government BM Collage, Barisal.</h1>
                 <hr />
-                <h4 className="text-warning">About of a List of Teachers and Their Salaries</h4>
-                <h5 className="d-flex justify-content-around">
+                <h4 className="text-warning">List of Teachers and Their Salaries. <br /> You can Also Calculate There's Salaries.</h4>
+                <h5 className="d-flex justify-content-around mt-3">
                     <article className="text-white">Total Teachers: 12</article>
                     <article className="text-white">Total Budget: 5 Lakhs</article>
                 </h5>
